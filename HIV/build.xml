@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HIVTriage.makejar" basedir="." default="makejar">	
+	<path id="build.classpath">
+	    <fileset dir="jars">
+	        <include name="*.jar"/>
+	    </fileset>			
+	</path>	
+	<manifestclasspath property="jar.classpath" jarfile="executables/*.jar">
+	    <classpath refid="build.classpath"/>
+	</manifestclasspath>
+	<target name="clean">
+		<delete dir="bin" />
+		<mkdir dir="bin" />
+	</target>	
+	
+	<target name="copy">
+		<copy todir="bin" includeemptydirs="false">
+			<fileset dir="." includes="*.cfg, *.txt" />			
+		</copy>
+	</target>		
+		
+	<target name="compile" depends="clean,copy">
+		<javac srcdir="src/triage" destdir="bin" debug="true"
+			includes="analyse/**, arffmatrix/**, 
+				arffvector/**, classifier/**, 
+				configure/**, filter/**, preprocessing/**" 
+			classpathref="build.classpath" 
+		/>
+	</target>		
+	
+	<target name ="makejar" depends="compile" description="Create jars for the HIV Triage project.">				
+    <jar destfile="executables/CorpusHandler.jar">    	
+    	<fileset dir="bin/">
+			<include name="triage/preprocessing/CorpusHandler*.class"/>	
+			<include name="triage/configure/ConfigConstants.class"/>
+    		<include name="config.cfg"/>
+		</fileset>      	 
+    	      	
+    	<manifest>
+			<attribute name="Main-Class" value="triage.preprocessing.CorpusHandler"/>
+    		<attribute name="Class-Path" value="${jar.classpath}"/>
+    	</manifest>    	
+     </jar>
+	 <jar destfile="executables/SampleCorpus.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/preprocessing/SampleCorpus*.class"/>	
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.preprocessing.SampleCorpus"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	  </jar>	 
+ 	   <jar destfile="executables/NgramExtractor.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/analyse/Extractor.class"/>
+			<include name="triage/analyse/NgramExtractor.class"/>
+			<include name="triage/filter/NaiveFilter.class"/>
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>
+			<include name="stopList.txt"/>
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.analyse.NgramExtractor"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	   </jar>
+  	   <jar destfile="executables/AnnotationExtractor.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/analyse/Extractor.class"/>
+			<include name="triage/analyse/AnnotationExtractor.class"/>	
+			<include name="triage/filter/NaiveFilter.class"/>		
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>
+			<include name="stopList.txt"/>
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.analyse.AnnotationExtractor"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	   </jar>
+	   <jar destfile="executables/KeywordExtractor.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/analyse/Extractor.class"/>
+			<include name="triage/analyse/KeywordExtractor*.class"/>	
+			<include name="triage/filter/NaiveFilter.class"/>				
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>
+			<include name="stopList.txt"/>
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.analyse.KeywordExtractor"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	   </jar>
+	   <jar destfile="executables/BuildModel.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/arffmatrix/BuildModel.class"/>
+			<include name="triage/arffvector/CreateVector.class"/>	
+			<include name="triage/analyse/Extractor.class"/>						
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>			
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.arffmatrix.BuildModel"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	   </jar>	
+	    <jar destfile="executables/Trainer.jar">    	
+	 	<fileset dir="bin/">
+			<include name="triage/classifier/Trainer.class"/>
+	 		<include name="triage/filter/InformedFilter.class"/>
+			<include name="triage/configure/ConfigConstants.class"/>
+	   		<include name="config.cfg"/>			
+		</fileset>      	 
+		<manifest>
+			<attribute name="Main-Class" value="triage.classifier.Trainer"/>
+			<attribute name="Class-Path" value="${jar.classpath}"/>
+		</manifest>    	
+	   </jar>    			
+  	</target>
+	<target name="corpus-handler">
+		<java fork="true" classname="triage/preprocessing/CorpusHandler">
+			<classpath>
+				<path location="executables/CorpusHandler.jar"/>
+			</classpath>			
+			<arg value="${options}"/>			
+		</java>		
+	</target>	
+	<target name="sample-corpus">
+		<java fork="true" classname="triage/preprocessing/SampleCorpus">
+		<classpath>
+			<path location="executables/SampleCorpus.jar"/>
+		</classpath>					
+		</java>		
+	</target>
+	<target name="ngram-extractor">
+		<java fork="true" classname="triage/analyse/NgramExtractor">
+		<classpath>
+			<path location="executables/NgramExtractor.jar"/>
+		</classpath>					
+		</java>		
+	</target>
+	<target name="annotation-extractor">
+		<java fork="true" classname="triage/analyse/AnnotationExtractor">
+		<classpath>
+			<path location="executables/AnnotationExtractor.jar"/>
+		</classpath>					
+		</java>		
+	</target>
+	<target name="keyword-extractor">
+		<java fork="true" classname="triage/analyse/KeywordExtractor">
+		<classpath>
+			<path location="executables/KeywordExtractor.jar"/>
+		</classpath>					
+		</java>		
+	</target>
+	<target name="build-model">
+		<java fork="true" classname="triage/arffmatrix/BuildModel">
+		<classpath>
+			<path location="executables/BuildModel.jar"/>
+		</classpath>					
+		</java>		
+	</target>
+	<target name="trainer">
+		<java fork="true" classname="triage/classifier/Trainer">
+		<classpath>
+			<path location="executables/Trainer.jar"/>	
+		</classpath>		
+		<arg value="${classifier}"/>			
+		</java>		
+	</target>
+</project>

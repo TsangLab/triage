@@ -1,0 +1,615 @@
+HIV	
+AIDS	
+systematic review	
+meta-analysis	
+metaanalysis	
+meta analysic	
+meta-analytic	
+metaanalytic	
+synthesize	
+synthesis	
+search	
+searched	
+searching	
+databases	
+Cochrane	
+random	
+randomized	
+randomised	
+randomly	
+placebo	
+placebos	
+RCT	
+observational	
+cohort	
+longitudinal	
+prospective	
+retrospective	
+multivariate	
+case control	
+case-control	
+comparative	
+cross-sectional	
+crosssectional	
+time series	
+before-after control	
+before-and-after control	
+non-randomized	
+nonrandomized	
+nonrandomised	
+non-randomised	
+Men who have sex with men	
+men that have sex with men	
+MSM	
+gay men	
+gay male	
+gay males	
+queer	
+bisexual	
+bisexuality	
+bisexually	
+bisexuals	
+heterosexual male	
+heterosexual males	
+heterosexual men	
+male heterosexual	
+male heterosexuals	
+male heterosexuality	
+Aboriginal	
+aboriginals	
+Inuit	
+American Indians	
+American Indian	
+first nations	
+metis	
+inuit	
+Indigenous persons	
+indigenous people	
+Canadian Indian	
+Canadian Indians	
+native American	
+native Americans	
+native Canadian	
+native Canadians	
+Indigenous population	
+Indigenous populations	
+amerindian	
+amerindians	
+immigrant	
+immigrants	
+migrant	
+migrants	
+newcomer	
+newcomers	
+refugee	
+refugees	
+ethnic group	
+ethnicity	
+african	
+asian	
+arab	
+hispanic	
+latino	
+latina	
+caucasian	
+hispanics	
+latinos	
+latinas	
+transgendered	
+transgender	
+transsexual	
+trans-sexual	
+transmen	
+transwomen	
+transsexual	
+man-to-woman	
+male-to-female	
+woman-to-man	
+female-to-male	
+man to woman	
+male to female	
+woman to man	
+female to male	
+homeless	
+homelessness	
+shelter	
+shelters	
+street drug	
+street drugs	
+heroin	
+opiate	
+opiates	
+injecting	
+injection	
+injections	
+intravenous drug	
+intravenous drugs	
+needle	
+needles	
+non-injecting	
+marijuana	
+LSD	
+lysergic acid diethylamide	
+amphetamine	
+amphetamines	
+cannabis	
+inhale	
+inhaled	
+inhales	
+inhalation	
+smoke	
+smoked	
+smokes	
+ingest	
+ingests	
+ingested	
+crack	
+ecstasy	
+prescription abuse	
+prisoner	
+prisoners	
+offender	
+offenders	
+criminal justice	
+prison	
+prisons	
+sex worker	
+sex workers	
+sex trade worker	
+sex trade workers	
+prostitution	
+prostitute	
+prostitution	
+seniors	
+elderly	
+older adults	
+middle aged	
+middle-aged	
+aging	
+ageing	
+growing older	
+getting older	
+adolescent	
+adolescents	
+adolescence	
+youth	
+young person	
+young persons	
+young people	
+youths	
+teenager	
+teenagers	
+pregnant	
+pregnancy	
+women	
+female	
+females	
+mental health	
+psychiatric	
+psychological	
+depression	
+depressive	
+anxiety	
+obsessive compulsive	
+dementia	
+alzheimer's	
+alzheimers	
+alzheimer	
+schizophrenic	
+schizophrenia	
+psychosis	
+psychotic	
+psychoses	
+personality disorder	
+personality disorders,substance abuse	
+substance-related	
+substance related	
+reactive depression	
+situational depression	
+adjustment disorder	
+adjustment disorders	
+anxiety	
+panic	
+ocd	
+obsessive compulsive disorder	
+traumatic stress	
+ptsd	
+dementia	
+alzheimer	
+alzheimers	
+alzheimer's	
+alzheimer	
+cognitive disorder	
+cognitive disorders	
+cognitive impairment	
+delirium	
+amnesia	
+auditory perceptual	
+dissociative disorder	
+dissociative identity disorder	
+eating disorder	
+eating disorders	
+anorexia	
+bulimia	
+bulimic	
+binge eating	
+binge-eating	
+pica	
+female athlete triad syndrome	
+factitious disorder	
+factitious disorders	
+munchausen	
+impulse control	
+firesetting	
+fire-setting	
+fire setting	
+gambling	
+pyromania	
+kleptomania	
+intermittent explosive	
+sexual compulsion	
+sexual compulsive	
+sexually compulsive	
+mood disorder	
+mood disorders	
+bipolar	
+depressive	
+depression	
+dysthymia	
+dysthymic	
+affective disorder	
+neurotic	
+neurosis	
+neuroses	
+personality disorder	
+personality disorders	
+schizophrenia	
+schizophrenic	
+capgras	
+paranoid	
+paranoia	
+psychosis	
+psychoses	
+psychotic	
+delusional	
+dyspareunia	
+vaginismus	
+premature ejaculation	
+erectile dysfunction	
+erectile dysfunction	
+XY disorder	
+XX disorder	
+XY disorders	
+XX disorder	
+sex development	
+sleep disorder	
+sleep disorders	
+sleep-wake	
+insomnia	
+narcolepsy	
+sleep maintenance	
+sleep apnea	
+sleep apneas	
+jet lag	
+sleep	
+sleeplessness	
+somatic	
+somatoform	
+psychosomatic	
+hypochondriasis	
+somatization	
+somatisation	
+conversion disorder	
+body dysmorphic disorder	
+BDD	
+substance	
+alcohol	
+methadone	
+cocaine	
+drug	
+drugs	
+marijuana	
+THC	
+opiate	
+opiates	
+amphetamine	
+amphetamines	
+ecstasy	
+LSD	
+tobacco	
+cigarette	
+cigarettes	
+smoking	
+smokers	
+nicotine	
+prevention	
+preventive	
+preventative	
+risk reduction	
+reduce risk	
+reduces risk	
+reduced risk	
+reduction of risk	
+condom	
+condoms	
+education	
+educational	
+health fair	
+health fairs	
+information session	
+psychoeducation	
+school	
+schools	
+mass media	
+communication	
+communications	
+radio	
+television	
+newspaper	
+newspapers	
+advertizement	
+advertizements	
+advertisement	
+advertisements	
+vaccine	
+vaccines	
+vaccination	
+vaccinations	
+circumcision	
+circumcized	
+circumcised	
+microbicide	
+microbicides	
+anti-infective	
+anti-infection	
+infection control	
+antibiotic	
+antibiotics	
+mother-to-child	
+perinatal	
+prenatal	
+postnatal	
+breast feeding	
+breastfeeding	
+breast-feeding	
+breast-fed	
+breast fed	
+breastfed	
+PrEP	
+pre-exposure	
+post-exposure	
+prophylaxis	
+preexposure	
+pre exposure	
+postexposure	
+post exposure	
+behaviour	
+behaviours	
+behavior	
+behaviors	
+behavioural	
+behavioral	
+prevention	
+preventative	
+preventive	
+harm reduction	
+risk reduction	
+reduce risk	
+reduces risk	
+reduced risk	
+reduction of risk	
+psychosocial	
+mental health	
+psychological	
+cbt	
+cognitive	
+behavior	
+behaviour	
+behavioral	
+behavioural	
+counselling	
+counseling	
+counselor	
+counselors	
+counsellor	
+counsellors	
+motivational interviews	
+motivational interviewing	
+motivational interview	
+social media	
+facebook	
+linked-in	
+twitter	
+tweets	
+tweet	
+instagram	
+pinterest	
+complementary	
+alternative	
+CAM	
+meditation	
+yoga	
+acupuncture	
+acupressure	
+mind-body	
+mind body	
+shamanism	
+biofeedback	
+aromatherapy	
+ayurvedic	
+traditional	
+therapeutic touch	
+tai chi	
+tai ji	
+chiropractic	
+osteopathic	
+osteopathy	
+art therapy	
+music therapy	
+dance therapy	
+massage	
+mindfulness	
+prayer	
+spiritual	
+homeopathy	
+naturopathy	
+hypnosis	
+relaxation	
+mental healing	
+play therapy	
+adverse	
+safety	
+side effects	
+monaco	
+liechtenstein	
+andorra	
+antigua	
+barbuda	
+aruba	
+australia	
+bahamas	
+bahrain	
+barbados	
+belgium	
+bermuda	
+brunei	
+canada	
+cayman islands	
+channel islands	
+chile	
+croatia	
+Curaçao	
+cyprus	
+czech	
+denmark	
+equatorial guinea	
+estonia	
+faroe islands	
+finland	
+france	
+french polynesia	
+germany	
+greece	
+greenland	
+guam	
+hong kong	
+iceland	
+ireland	
+isle of man	
+israel	
+italy	
+japan	
+korea	
+kuwait	
+latvia	
+lithuania	
+luxembourg	
+macao	
+Malta	
+Netherlands	
+Holland	
+New Caledonia	
+New Zealand	
+Northern Mariana	
+Norway	
+Oman	
+Poland	
+Portugal	
+Puerto Rico	
+Qatar	
+Russia	
+Saint Kitts	
+St Kitts	
+Nevis	
+Saint Martin	
+St Martin	
+San Marino	
+Saudi Arabia	
+Singapore	
+Sint Maarten	
+Slovakia	
+Slovenia	
+Spain	
+Sweden	
+Switzerland	
+Taiwan	
+Trinidad	
+Tobago	
+Turks	
+Caicos	
+United Arab Emirates	
+United Kingdom	
+UK	
+U.K.	
+United States	
+U.S.	
+US	
+USA	
+U.S.A.	
+Uruguay	
+Virgin Islands	
+first world	
+high-income countries	
+high-income economies	
+Afghanistan	
+North Korea	
+Democratic People's Republic of Korea	
+Bangladesh	
+Liberia	
+Benin	
+Madagascar	
+Burkina Faso	
+Malawi	
+Burundi	
+Mali	
+Cambodia	
+Mozambique	
+Central African Republic	
+Myanmar	
+Chad	
+Nepal	
+Comoros	
+Niger	
+Congo	
+Rwanda	
+Eritrea	
+Sierra Leone	
+Ethiopia	
+Somalia	
+Gambia	
+Tajikstan	
+Guinea	
+Tanzania	
+Guinea-Bisseau	
+Togo	
+Haiti	
+Uganda	
+Kenya	
+Zimbabwe	
+developing world	
+third world	
+low-income countries	
+low-income economies	
+social stigma	
+social marginalization	
+homophobia	
+stereotyping	
+prejudice	
+racism	
+sexism	
+social discrimination	
+stigma	
+discriminate	
+racism	
+stereotype	
+prejudice	
+self-acceptance	
+disclosure	
+disclosing	
+serodisclosure	
+partner notification	
+spouse notification	
+spousal notification	
+contact tracing
+
+
